@@ -2,7 +2,6 @@ import React from "react";
 import Header from "../Header/Header";
 import "./Registration.css";
 import $ from "jquery";
-import "../Thanks/Thanks.css";
 import { useState } from "react";
 import SocialIG from "../../Assets/ico_thanks_ig.svg";
 import SocialTT from "../../Assets/ico_thanks_tiktok.svg";
@@ -30,7 +29,7 @@ const Registration = () => {
     $("#otro-rubro").css("visibility", "hidden").css("position", "absolute");
     $("#rubro").change(function () {
       var i = $("#rubro").val();
-      if (i == "Otra Actividad y/o Rubro") {
+      if (i === "Otra Actividad y/o Rubro") {
         $("#otro-rubro")
           .css("visibility", "visible")
           .css("position", "relative");
@@ -67,10 +66,7 @@ const Registration = () => {
       //data: $("#formulario").serialize(),
       data: JSON.stringify(data),
       success: function () {
-        console.log("omegapoggers");
-        //window.location = "gracias";
         setFormSent(true);
-        console.log(formSent);
       },
     });
   };

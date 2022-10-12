@@ -59,3 +59,46 @@ main form select {
   main form .row-submit .col {
     text-align: right;
   }
+
+  .thanks-social-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.thanks-social-item {
+    background-color: #f2f8f5;
+    width: 125px;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.thanks-social-item img {
+    height: 32px;
+}
+
+.thanks-social-item p {
+    color: #007737;
+    font-weight: bold;
+    margin: 16px 0 0 0;
+}
+
+@media (min-width: 992px) {
+    .thanks-social-item {
+        background-color: #f2f8f5;
+        width: 200px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+    }
+
+    .thanks-social-item img {
+        height: 60px;
+    }
+}
