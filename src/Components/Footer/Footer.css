@@ -1,0 +1,43 @@
+footer {
+    background-color: #63666a;
+}
+
+footer p {
+    color: white;
+    font-size: 14px;
+    margin: 0;
+}
+
+footer .col-socials {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer .col-socials ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 0;
+    display: flex;
+}
+
+footer .col-socials ul li {
+    padding: 0 16px;
+}
+
+footer .col-socials ul li img {
+    width: 24px;
+}
+
+footer .col-socials #logo-empresa-b {
+    width: 64px;
+}
+
+footer #logo-ceg {
+    width: 140px;
+}
+
+.row-footer {
+    display: flex;
+    align-items: center;
+}

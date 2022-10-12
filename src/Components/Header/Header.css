@@ -1,0 +1,17 @@
+header {
+    background-color: #e6f1eb;
+}
+
+.highlighted {
+    color: #229865;
+}
+
+.col-header-titulo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (min-width: 576px) {
+    
+}
