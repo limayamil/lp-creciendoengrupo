@@ -1,5 +1,5 @@
 import React from "react";
-import HeaderImg from "../../Assets/header_milbrands.webp";
+import HeaderImg from "../../Assets/header_axel.webp";
 import SinEventoHeaderImg from "../../Assets/header_sinevento.webp";
 import "./Header.css";
 

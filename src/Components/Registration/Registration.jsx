@@ -10,20 +10,16 @@ import SocialWeb from "../../Assets/ico_thanks_web.svg";
 
 const Registration = () => {
   const [formSent, setFormSent] = useState(false);
-  const [eventAvailable, setEventAvailable] = useState(false);
+  const [eventAvailable, setEventAvailable] = useState(true);
 
-  const titulo = [
-    "¡Mariano Sirena, CEO de ",
-    <span className="highlighted">Milbrands</span>,
-    ", en Creciendo en Grupo!",
-  ];
-  const subtitulo = "Aumentá tus ventas en Mercado Libre y en tu eCommerce";
+  const titulo = ["Inteligencia Artificial y negocios"];
+  const subtitulo = "Aprendé todo de la mano de un experto";
 
   const tituloGracias = "¡Gracias por inscribirte a nuestro Webinar!";
   const subtituloGracias = [
-    "Te enviaremos el link de acceso, horas antes del evento, por mail.",
+    "Horas antes del evento, te enviaremos por mail el link de acceso.",
     <br />,
-    <span className="highlighted">¡Te esperamos!</span>,
+    <span className="highlighted">¡Nos vemos!</span>,
   ];
 
   const tituloSinEventos = "Estamos trabajando en el próximo webinar.";
@@ -121,12 +117,13 @@ const Registration = () => {
               <div className="row my-5 pt-5">
                 <div className="col-md-8 offset-md-2">
                   <h3 className="mb-4">
-                    Para conocer más sobre la trayectoria de Mariano te
-                    invitamos a seguirlo en sus redes sociales:
+                    Axel Jutoran tiene un recorrido asombroso en el universo de
+                    la Inteligencia Artificial. Conocé más de su trayectoria en
+                    sus redes sociales:
                   </h3>
                   <div className="thanks-social-container my-5">
                     <a
-                      href="https://www.instagram.com/marianosirena/"
+                      href="https://www.instagram.com/axel_jutoran/"
                       target="_blank"
                       rel="noreferrer">
                       <div className="thanks-social-item">
@@ -134,11 +131,23 @@ const Registration = () => {
                           src={SocialIG}
                           alt=""
                         />
-                        <p>marianosirena</p>
+                        <p>axel_jutoran</p>
                       </div>
                     </a>
                     <a
-                      href="https://www.youtube.com/@detrasdelalgoritmo"
+                      href="https://www.tiktok.com/@axeljutoran"
+                      target="_blank"
+                      rel="noreferrer">
+                      <div className="thanks-social-item">
+                        <img
+                          src={SocialTT}
+                          alt=""
+                        />
+                        <p>@axeljutoran</p>
+                      </div>
+                    </a>
+                    <a
+                      href="https://www.youtube.com/@axeljutoran"
                       target="_blank"
                       rel="noreferrer">
                       <div className="thanks-social-item">
@@ -146,7 +155,7 @@ const Registration = () => {
                           src={SocialYT}
                           alt=""
                         />
-                        <p>detrasdelalgoritmo</p>
+                        <p>Axel Jutoran</p>
                       </div>
                     </a>
                   </div>
@@ -169,22 +178,27 @@ const Registration = () => {
               <div className="row">
                 <div className="col-md-10 offset-md-1">
                   <h3 className="my-5">
-                    ¡Llega el 1º encuentro de Creciendo en Grupo{" "}
-                    <strong>edición 2023, de la mano de un experto!</strong>
+                    ¡Llega un nuevo webinar de Creciendo en Grupo que será
+                    simplemente IMPERDIBLE!
                   </h3>
                   <p className="mb-4">
-                    <strong>Junto a Mariano Sirena, CEO de Milbrands,</strong>{" "}
-                    aprenderás cómo aumentar tus ventas en Mercado Libre y en tu
-                    eCommerce con una gran estrategia integral de Marketing
-                    Digital.
+                    <strong>
+                      Junto a Axel Jutoran, Lic. en Comercialización y experto
+                      en Inteligencia Artificial para negocios
+                    </strong>
+                    , aprenderás a utilizar todos los secretos que ofrece esta
+                    nueva herramienta <strong>a favor de tu comercio</strong>.
+                    Un webinar de tendencia, innovador, con una propuesta super
+                    original. ¡Sumate!
                   </p>
                   <p className="mb-4">
-                    El encuentro se realizará el día
-                    <strong> Jueves 30 de Marzo a las 19 hs via Zoom.</strong>
+                    El encuentro se realizará el día{" "}
+                    <strong>Martes 24 de Agosto a las 19 hs via Zoom.</strong>
                   </p>
                   <p className="mb-4">
-                    Anotate ya para asegurar tu lugar en el 1º webinar del ciclo
-                    Creciendo en Grupo 2023.
+                    Anotate ahora completando el siguiente formulario con tus
+                    datos y dale click al botón de inscripción. ¡Asegurá tu
+                    lugar! No te lo podes perder.
                   </p>
                 </div>
               </div>
