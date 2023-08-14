@@ -44,6 +44,7 @@ const Registration = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    $('input[type="submit"]').prop("disabled", true);
     var data = {
       nombre: $("input[name=input-nombre]").val(),
       telefono: $("input[name=input-telefono]").val(),
