@@ -194,7 +194,7 @@ const Registration = () => {
                   </p>
                   <p className="mb-4">
                     El encuentro se realizará el día{" "}
-                    <strong>Martes 24 de Agosto a las 19 hs via Zoom.</strong>
+                    <strong>Jueves 24 de Agosto a las 19 hs via Zoom.</strong>
                   </p>
                   <p className="mb-4">
                     Anotate ahora completando el siguiente formulario con tus
