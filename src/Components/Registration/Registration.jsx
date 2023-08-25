@@ -10,7 +10,7 @@ import SocialWeb from "../../Assets/ico_thanks_web.svg";
 
 const Registration = () => {
   const [formSent, setFormSent] = useState(false);
-  const [eventAvailable, setEventAvailable] = useState(true);
+  const [eventAvailable, setEventAvailable] = useState(false);
 
   const titulo = ["Inteligencia Artificial y negocios"];
   const subtitulo = "Aprendé todo de la mano de un experto";
